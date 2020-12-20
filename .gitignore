@@ -1,0 +1,16 @@
+.idea
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+/venv/
+/temp
+/input
+/output
+/utils/credential/
