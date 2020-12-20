@@ -1,4 +1,4 @@
-# OCRLabel
+# ImageNumber
 
 ## Overview
 
@@ -19,11 +19,9 @@ Moreover, the images are rotated to make the gray part with number and name vert
 
 - utils
 
-    * credential: The authorization key file(.json) used to get the OCR result from Google Vision API
-    * OCR.csv: The csv file with various information used to mathe the number and name with the new name
+    * credential: The authorization key file(.json) used to get the OCR result from Google Vision API    
     * The source code to manage folder and file functionality
-    * The source code to adjust the tilted image
-    * The source code to communicate with Google Vision API
+    * The source code to adjust the tilted image    
 
 - app
 
@@ -41,7 +39,7 @@ Moreover, the images are rotated to make the gray part with number and name vert
 
 - Environment
 
-    Windows 8+, Ubuntu 16.04+, Python 3.6+
+    Windows 10, Ubuntu 18.04, Python 3.6+
 
 - Dependency Installation
     
@@ -53,20 +51,8 @@ Moreover, the images are rotated to make the gray part with number and name vert
 
 ## Execution
 
-- Please copy the images to process into the input directory
-
 - Please run the following command in this project directory in the terminal.
 
     ```
         python3 app.py
     ```
-
-## Note
-
-- You can see the process of running this project. After running, you can find out the new directory named output, where
-the gif images with new names are saved. 
-
-- Also, because of various reasons including image with an unclear name, etc, some
-of them might not be processed successfully. To recognize the unprocessed images easily, the file whose name is processed_files.txt
-are created after running. You can easily find out which images have been processed successfully. With this, the result.log
-file is also created, where you can know about the reason why some of them haven't been processed.   
