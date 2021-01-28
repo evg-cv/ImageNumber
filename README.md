@@ -1,16 +1,12 @@
-# ImageNumber
+# ImageOCR
 
 ## Overview
 
-This project is to extract the number and name in the image and save the image in the new path, where the name of new path
+This project is to extract the necessary information in the image and save the image in the new path, where the name of new path
 is matched with name and number in OCR csv file. In this project, Google Vision API is used to get the OCR result. 
 Moreover, the images are rotated to make the gray part with number and name vertical while running this project.
 
 ## Structure
-
-- input
-
-    The directory that the images to process are contained. It must be made manually.
 
 - src
 
